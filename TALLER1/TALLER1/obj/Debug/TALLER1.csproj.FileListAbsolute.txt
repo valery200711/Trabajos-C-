@@ -1,0 +1,8 @@
+C:\Users\restr\source\repos\TRABAJOS_C#\TALLER1\TALLER1\bin\Debug\TALLER1.exe.config
+C:\Users\restr\source\repos\TRABAJOS_C#\TALLER1\TALLER1\bin\Debug\TALLER1.exe
+C:\Users\restr\source\repos\TRABAJOS_C#\TALLER1\TALLER1\bin\Debug\TALLER1.pdb
+C:\Users\restr\source\repos\TRABAJOS_C#\TALLER1\TALLER1\obj\Debug\TALLER1.csproj.AssemblyReference.cache
+C:\Users\restr\source\repos\TRABAJOS_C#\TALLER1\TALLER1\obj\Debug\TALLER1.csproj.CoreCompileInputs.cache
+C:\Users\restr\source\repos\TRABAJOS_C#\TALLER1\TALLER1\obj\Debug\TALLER1.exe
+C:\Users\restr\source\repos\TRABAJOS_C#\TALLER1\TALLER1\obj\Debug\TALLER1.pdb
+C:\Users\restr\source\repos\TRABAJOS_C#\TALLER1\TALLER1\obj\Debug\TALLER1.exe.config

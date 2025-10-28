@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\restr\\source\\repos\\ModificadorDeAcceso\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D5991C-66D8-43E0-8A1C-5DE46E49C195}|ModificadorDeAcceso\\ModificadorDeAcceso.csproj|c:\\users\\restr\\source\\repos\\modificadordeacceso\\modificadordeacceso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D5991C-66D8-43E0-8A1C-5DE46E49C195}|ModificadorDeAcceso\\ModificadorDeAcceso.csproj|solutionrelative:modificadordeacceso\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D5991C-66D8-43E0-8A1C-5DE46E49C195}|ModificadorDeAcceso\\ModificadorDeAcceso.csproj|c:\\users\\restr\\source\\repos\\modificadordeacceso\\modificadordeacceso\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D5991C-66D8-43E0-8A1C-5DE46E49C195}|ModificadorDeAcceso\\ModificadorDeAcceso.csproj|solutionrelative:modificadordeacceso\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D5991C-66D8-43E0-8A1C-5DE46E49C195}|ModificadorDeAcceso\\ModificadorDeAcceso.csproj|c:\\users\\restr\\source\\repos\\modificadordeacceso\\modificadordeacceso\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D5991C-66D8-43E0-8A1C-5DE46E49C195}|ModificadorDeAcceso\\ModificadorDeAcceso.csproj|solutionrelative:modificadordeacceso\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D5991C-66D8-43E0-8A1C-5DE46E49C195}|ModificadorDeAcceso\\ModificadorDeAcceso.csproj|c:\\users\\restr\\source\\repos\\modificadordeacceso\\modificadordeacceso\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3D5991C-66D8-43E0-8A1C-5DE46E49C195}|ModificadorDeAcceso\\ModificadorDeAcceso.csproj|solutionrelative:modificadordeacceso\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\ModificadorDeAcceso\\ModificadorDeAcceso\\Libro.cs",
+              "RelativeDocumentMoniker": "ModificadorDeAcceso\\Libro.cs",
+              "ToolTip": "C:\\Users\\restr\\source\\repos\\ModificadorDeAcceso\\ModificadorDeAcceso\\Libro.cs",
+              "RelativeToolTip": "ModificadorDeAcceso\\Libro.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAADwv0IAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T01:35:35.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\ModificadorDeAcceso\\ModificadorDeAcceso\\Empleado.cs",
+              "RelativeDocumentMoniker": "ModificadorDeAcceso\\Empleado.cs",
+              "ToolTip": "C:\\Users\\restr\\source\\repos\\ModificadorDeAcceso\\ModificadorDeAcceso\\Empleado.cs",
+              "RelativeToolTip": "ModificadorDeAcceso\\Empleado.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwv0oAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T00:30:57.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vehiculo.cs",
+              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\ModificadorDeAcceso\\ModificadorDeAcceso\\Vehiculo.cs",
+              "RelativeDocumentMoniker": "ModificadorDeAcceso\\Vehiculo.cs",
+              "ToolTip": "C:\\Users\\restr\\source\\repos\\ModificadorDeAcceso\\ModificadorDeAcceso\\Vehiculo.cs",
+              "RelativeToolTip": "ModificadorDeAcceso\\Vehiculo.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwB0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T00:07:00.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\ModificadorDeAcceso\\ModificadorDeAcceso\\Program.cs",
+              "RelativeDocumentMoniker": "ModificadorDeAcceso\\Program.cs",
+              "ToolTip": "C:\\Users\\restr\\source\\repos\\ModificadorDeAcceso\\ModificadorDeAcceso\\Program.cs",
+              "RelativeToolTip": "ModificadorDeAcceso\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T00:04:36.595Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
