@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TechNova</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            background-color: #f5f6fa;
+        }
+
+        /* NAVBAR SUPERIOR */
+        .navbar-custom {
+            background: #1e1e2f;
+            padding: 15px 10px;
+        }
+
+        .navbar-custom .navbar-brand {
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+
+        .navbar-custom .nav-link {
+            color: #dcdcdc !important;
+            margin-right: 15px;
+        }
+
+        .navbar-custom .nav-link:hover {
+            color: #ffffff !important;
+        }
+
+        /* CONTENEDOR */
+        .content-container {
+            margin-top: 20px;
+            background: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+        }
+
+        footer {
+            background: #1e1e2f;
+            color: #fff;
+            padding: 15px 0;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #9ac1ff;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- NAVBAR SUPERIOR -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">⚡ TechNova</a>
+
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav me-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Clientes" asp-action="Index">👤 Clientes</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Productoes" asp-action="Index">📦 Productos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Ventas" asp-action="Index">💲 Ventas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="VentaDetalles" asp-action="Index">🧾 Venta Detalles</a>
+                    </li>
+
+                </ul>
+
+                <!-- LOGIN PARTIAL -->
+                <partial name="_LoginPartial" />
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENIDO -->
+    <div class="container">
+        <div class="content-container">
+            @RenderBody()
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-center">
+        <div class="container">
+            &copy; 2025 - TechNova | <a asp-controller="Home" asp-action="Privacy">Política de Privacidad</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
