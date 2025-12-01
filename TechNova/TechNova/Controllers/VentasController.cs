@@ -21,12 +21,16 @@ namespace TechNova.Controllers
         [Authorize(Roles = "Administrador")]
 
         // GET: Ventas
+
         public async Task<IActionResult> Index()
         {
-            var techNovaDbContext = _context.Ventas.Include(v => v.Cliente);
-            return View(await techNovaDbContext.ToListAsync());
-        }
+            var ventas = _context.Ventas
+                .Include(v => v.Cliente)
+                .Include(v => v.VentaDetalles)
+                    .ThenInclude(d => d.Producto);
 
+            return View(await ventas.ToListAsync());
+        }
         // GET: Ventas/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -37,7 +41,10 @@ namespace TechNova.Controllers
 
             var venta = await _context.Ventas
                 .Include(v => v.Cliente)
+                .Include(v => v.VentaDetalles)
+                    .ThenInclude(d => d.Producto)
                 .FirstOrDefaultAsync(m => m.VentaId == id);
+
             if (venta == null)
             {
                 return NotFound();
@@ -49,8 +56,13 @@ namespace TechNova.Controllers
         // GET: Ventas/Create
         public IActionResult Create()
         {
-            ViewData["ClienteId"] = new SelectList(_context.Clientes, "ClienteId", "ClienteId");
-            return View();
+            var vm = new VentaCreateViewModel
+            {
+                Clientes = _context.Clientes.ToList(),
+                Productos = _context.Productos.ToList()
+            };
+
+            return View(vm);
         }
 
         // POST: Ventas/Create
@@ -58,17 +70,52 @@ namespace TechNova.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("VentaId,ClienteId,Fecha,Total")] Venta venta)
+        public async Task<IActionResult> Create(VentaCreateViewModel vm)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                _context.Add(venta);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                vm.Clientes = _context.Clientes.ToList();
+                vm.Productos = _context.Productos.ToList();
+                return View(vm);
             }
-            ViewData["ClienteId"] = new SelectList(_context.Clientes, "ClienteId", "ClienteId", venta.ClienteId);
-            return View(venta);
+
+            // Crear la venta
+            var venta = new Venta
+            {
+                ClienteId = vm.ClienteId,
+                Fecha = DateTime.Now,
+                Total = vm.Items.Sum(i => i.Subtotal)
+            };
+
+            _context.Ventas.Add(venta);
+            await _context.SaveChangesAsync();
+
+            // Crear los detalles
+            foreach (var item in vm.Items)
+            {
+                item.VentaId = venta.VentaId;
+
+                // Actualizar stock
+                var producto = await _context.Productos.FindAsync(item.ProductoId);
+
+                if (producto.Stock < item.Cantidad)
+                {
+                    ModelState.AddModelError("", $"No hay stock suficiente para {producto.Nombre}");
+                    vm.Clientes = _context.Clientes.ToList();
+                    vm.Productos = _context.Productos.ToList();
+                    return View(vm);
+                }
+
+                producto.Stock -= item.Cantidad;
+
+                _context.VentaDetalle.Add(item);
+            }
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
         }
+
 
         // GET: Ventas/Edit/5
         public async Task<IActionResult> Edit(int? id)

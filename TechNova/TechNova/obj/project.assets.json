@@ -8330,11 +8330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\restr\\source\\repos\\TechNova\\TechNova\\TechNova.csproj",
+      "projectUniqueName": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\TechNova.csproj",
       "projectName": "TechNova",
-      "projectPath": "C:\\Users\\restr\\source\\repos\\TechNova\\TechNova\\TechNova.csproj",
+      "projectPath": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\TechNova.csproj",
       "packagesPath": "C:\\Users\\restr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\restr\\source\\repos\\TechNova\\TechNova\\obj\\",
+      "outputPath": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

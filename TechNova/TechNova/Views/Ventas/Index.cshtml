@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Ventas</h1>
+<h1 class="mb-4">Ventas</h1>
 
 <p>
     <a class="btn btn-success" asp-action="Create">Crear Nueva Venta</a>
@@ -15,35 +15,36 @@
     <thead class="table-dark">
         <tr>
             <th>Fecha</th>
-            <th>Total</th>
             <th>Cliente</th>
             <th>Productos Comprados</th>
             <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var venta in Model)
-{
-    <tr>
-        <td>@venta.Fecha.ToString("dd/MM/yyyy")</td>
-        <td>@venta.Total.ToString("C")</td>
-        <td>@venta.Cliente.NombreCompleto</td>
-        <td>
-            <ul>
-                @foreach (var detalle in venta.VentaDetalles)
-                {
-                    <li>
-                        @detalle.Producto.Nombre - Cantidad: @detalle.Cantidad - Precio Unitario: @detalle.PrecioUnitario.ToString("C") - Subtotal: @detalle.Subtotal.ToString("C")
-                    </li>
-                }
-            </ul>
-        </td>
-        <td>
-            <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@venta.VentaId">Editar</a>
-            <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@venta.VentaId">Detalles</a>
-            <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@venta.VentaId">Eliminar</a>
-        </td>
-    </tr>
-}
+        @foreach (var venta in Model)
+        {
+            <tr>
+                <td>@venta.Fecha.ToString("dd/MM/yyyy")</td>
+
+                <td>@venta.Cliente?.NombreCompleto</td>
+                <td>
+                    <ul>
+                        @foreach (var detalle in venta.VentaDetalles)
+                        {
+                            <li>
+                                <strong>@detalle.Producto.Nombre</strong> —
+                                PU: @detalle.PrecioUnitario.ToString("C") 
+                            </li>
+                        }
+                    </ul>
+                </td>
+
+                <td>
+                    <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@venta.VentaId">Editar</a>
+                    <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@venta.VentaId">Detalles</a>
+                    <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@venta.VentaId">Eliminar</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

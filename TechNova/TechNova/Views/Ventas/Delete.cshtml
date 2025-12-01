@@ -1,40 +1,63 @@
 ﻿@model TechNova.Models.Venta
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Eliminar Venta";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Delete</h1>
+<h1>Eliminar Venta</h1>
 
-<h3>Are you sure you want to delete this?</h3>
-<div>
-    <h4>Venta</h4>
+<h3 class="text-danger">¿Está seguro de que desea eliminar esta venta?</h3>
+
+<div class="card p-4 shadow-sm mb-4">
+    <h4>Información del Cliente</h4>
     <hr />
+
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Fecha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Fecha)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Total)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Total)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Cliente)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Cliente.ClienteId)
-        </dd>
+        <dt class="col-sm-3">Cliente</dt>
+        <dd class="col-sm-9">@Model.Cliente?.NombreCompleto</dd>
+
+        <dt class="col-sm-3">Fecha</dt>
+        <dd class="col-sm-9">@Model.Fecha.ToString("dd/MM/yyyy")</dd>
     </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="VentaId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
 </div>
+
+<div class="card p-4 shadow-sm mb-4">
+    <h4>Productos Comprados</h4>
+    <hr />
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio Unitario</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.VentaDetalles)
+            {
+                <tr>
+                    <td>@item.Producto.Nombre</td>
+                    <td>@item.Cantidad</td>
+                    <td>@item.PrecioUnitario.ToString("C")</td>
+                    <td>@item.Subtotal.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="card p-4 shadow-sm mb-4">
+    <h4>Total de la Venta</h4>
+    <hr />
+    <h3 class="text-end">@Model.Total.ToString("C")</h3>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="VentaId" />
+
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancelar</a>
+</form>

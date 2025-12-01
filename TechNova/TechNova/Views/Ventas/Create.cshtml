@@ -1,38 +1,120 @@
-﻿@model TechNova.Models.Venta
+﻿@model TechNova.Models.VentaCreateViewModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Crear Venta";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
-
-<h4>Venta</h4>
+<h1>Crear Venta</h1>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="ClienteId" class="control-label"></label>
-                <select asp-for="ClienteId" class ="form-control" asp-items="ViewBag.ClienteId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="Total" class="control-label"></label>
-                <input asp-for="Total" class="form-control" />
-                <span asp-validation-for="Total" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+<form asp-action="Create" method="post">
+
+    <!-- CLIENTE -->
+    <select asp-for="ClienteId" class="form-control">
+        <option value="">Seleccione un cliente</option>
+        @foreach (var c in Model.Clientes)
+        {
+            <option value="@c.ClienteId">@c.NombreCompleto</option>
+        }
+    </select>
+
+
+    <hr />
+
+    <!-- PRODUCTO Y CANTIDAD -->
+    <div class="row">
+        <div class="col-md-6">
+            <label>Producto</label>
+            <select id="productoSelect" class="form-control">
+                <option value="">Seleccione un producto</option>
+                @foreach (var p in Model.Productos)
+                {
+                    <option value="@p.ProductoId" data-precio="@p.PrecioUnitario">@p.Nombre</option>
+                }
+            </select>
+        </div>
+
+        <div class="col-md-3">
+            <label>Cantidad</label>
+            <input id="cantidadInput" type="number" class="form-control" min="1" value="1" />
+        </div>
+
+        <div class="col-md-3 d-flex align-items-end">
+            <button id="btnAgregar" type="button" class="btn btn-success">Agregar</button>
+        </div>
+    </div>
+
+    <hr />
+
+    <!-- TABLA DETALLE -->
+    <table class="table table-bordered mt-3" id="tablaDetalle">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h3>Total: <span id="total">0.00</span></h3>
+
+    <!-- ITEMS OCULTOS PARA ENVIAR AL CONTROLLER -->
+    <div id="itemsContainer"></div>
+
+    <hr />
+
+    <button type="submit" class="btn btn-primary">Guardar Venta</button>
+    <a asp-action="Index" class="btn btn-secondary">Volver</a>
+
+</form>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+
+        let total = 0;
+
+        document.getElementById("btnAgregar").addEventListener("click", function () {
+
+            let select = document.getElementById("productoSelect");
+            let productoId = select.value;
+            let productoNombre = select.options[select.selectedIndex].text;
+            let precio = parseFloat(select.options[select.selectedIndex].dataset.precio);
+            let cantidad = parseInt(document.getElementById("cantidadInput").value);
+
+            if (!productoId) return;
+
+            let subtotal = precio * cantidad;
+
+            total += subtotal;
+            document.getElementById("total").innerText = total.toFixed(2);
+
+            // Agregar fila al detalle
+            let fila = `
+                <tr>
+                    <td>${productoNombre}</td>
+                    <td>${precio.toFixed(2)}</td>
+                    <td>${cantidad}</td>
+                    <td>${subtotal.toFixed(2)}</td>
+                    <td><button type="button" class="btn btn-danger btn-sm btnEliminar">X</button></td>
+                </tr>
+            `;
+
+            document.querySelector("#tablaDetalle tbody").insertAdjacentHTML("beforeend", fila);
+
+            // Crear inputs ocultos para enviar al servidor
+            let hidden = `
+                <input type="hidden" name="Items[index].ProductoId" value="${productoId}" />
+                <input type="hidden" name="Items[index].Cantidad" value="${cantidad}" />
+                <input type="hidden" name="Items[index].PrecioUnitario" value="${precio}" />
+            `;
+
+            document.getElementById("itemsContainer").insertAdjacentHTML("beforeend", hidden);
+        });
+
+    </script>
 }
