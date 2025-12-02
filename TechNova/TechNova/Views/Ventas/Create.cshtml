@@ -9,6 +9,7 @@
 <hr />
 
 <form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
 
     <!-- CLIENTE -->
     <select asp-for="ClienteId" class="form-control">
@@ -77,25 +78,30 @@
     <script>
 
         let total = 0;
+        let currentIndex = 0;
+
+        function actualizarTotal() {
+            document.getElementById("total").innerText = total.toFixed(2);
+        }
 
         document.getElementById("btnAgregar").addEventListener("click", function () {
 
             let select = document.getElementById("productoSelect");
             let productoId = select.value;
             let productoNombre = select.options[select.selectedIndex].text;
-            let precio = parseFloat(select.options[select.selectedIndex].dataset.precio);
-            let cantidad = parseInt(document.getElementById("cantidadInput").value);
+            let precio = parseFloat(select.options[select.selectedIndex].dataset.precio) || 0;
+            let cantidad = parseInt(document.getElementById("cantidadInput").value) || 0;
 
-            if (!productoId) return;
+            if (!productoId || cantidad <= 0) return;
 
             let subtotal = precio * cantidad;
 
             total += subtotal;
-            document.getElementById("total").innerText = total.toFixed(2);
+            actualizarTotal();
 
             // Agregar fila al detalle
             let fila = `
-                <tr>
+                <tr data-index="${currentIndex}">
                     <td>${productoNombre}</td>
                     <td>${precio.toFixed(2)}</td>
                     <td>${cantidad}</td>
@@ -106,14 +112,39 @@
 
             document.querySelector("#tablaDetalle tbody").insertAdjacentHTML("beforeend", fila);
 
-            // Crear inputs ocultos para enviar al servidor
+            // Crear inputs ocultos para enviar al servidor (agrupados por índice)
             let hidden = `
-                <input type="hidden" name="Items[index].ProductoId" value="${productoId}" />
-                <input type="hidden" name="Items[index].Cantidad" value="${cantidad}" />
-                <input type="hidden" name="Items[index].PrecioUnitario" value="${precio}" />
+                <div class="item-hidden" data-index="${currentIndex}">
+                    <input type="hidden" name="Items[${currentIndex}].ProductoId" value="${productoId}" />
+                    <input type="hidden" name="Items[${currentIndex}].Cantidad" value="${cantidad}" />
+                    <input type="hidden" name="Items[${currentIndex}].PrecioUnitario" value="${precio}" />
+                    <input type="hidden" name="Items[${currentIndex}].Subtotal" value="${subtotal.toFixed(2)}" />
+                </div>
             `;
 
             document.getElementById("itemsContainer").insertAdjacentHTML("beforeend", hidden);
+
+            currentIndex++;
+        });
+
+        // Delegated event for delete buttons
+        document.querySelector('#tablaDetalle tbody').addEventListener('click', function (e) {
+            if (e.target && e.target.classList.contains('btnEliminar')) {
+                const row = e.target.closest('tr');
+                const idx = row.dataset.index;
+
+                // Remove corresponding hidden inputs and adjust total
+                const hiddenDiv = document.querySelector(`#itemsContainer .item-hidden[data-index='${idx}']`);
+                if (hiddenDiv) {
+                    const subtotalInput = hiddenDiv.querySelector("input[name$='.Subtotal']");
+                    const subtotal = parseFloat(subtotalInput?.value) || 0;
+                    total -= subtotal;
+                    hiddenDiv.remove();
+                }
+
+                row.remove();
+                actualizarTotal();
+            }
         });
 
     </script>

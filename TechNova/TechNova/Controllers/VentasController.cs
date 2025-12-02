@@ -79,28 +79,43 @@ namespace TechNova.Controllers
                 return View(vm);
             }
 
+            if (vm.Items == null || !vm.Items.Any())
+            {
+                ModelState.AddModelError(string.Empty, "La venta debe contener al menos un producto.");
+                vm.Clientes = _context.Clientes.ToList();
+                vm.Productos = _context.Productos.ToList();
+                return View(vm);
+            }
+
             // Crear la venta
             var venta = new Venta
             {
                 ClienteId = vm.ClienteId,
                 Fecha = DateTime.Now,
-                Total = vm.Items.Sum(i => i.Subtotal)
+                Total = 0m // calcularemos después
             };
 
             _context.Ventas.Add(venta);
             await _context.SaveChangesAsync();
 
+            decimal totalVenta = 0m;
+
             // Crear los detalles
             foreach (var item in vm.Items)
             {
-                item.VentaId = venta.VentaId;
-
-                // Actualizar stock
+                // Asegurarse de que el producto exista y tomar precio real
                 var producto = await _context.Productos.FindAsync(item.ProductoId);
+                if (producto == null)
+                {
+                    ModelState.AddModelError(string.Empty, "Producto no encontrado.");
+                    vm.Clientes = _context.Clientes.ToList();
+                    vm.Productos = _context.Productos.ToList();
+                    return View(vm);
+                }
 
                 if (producto.Stock < item.Cantidad)
                 {
-                    ModelState.AddModelError("", $"No hay stock suficiente para {producto.Nombre}");
+                    ModelState.AddModelError(string.Empty, $"No hay stock suficiente para {producto.Nombre}");
                     vm.Clientes = _context.Clientes.ToList();
                     vm.Productos = _context.Productos.ToList();
                     return View(vm);
@@ -108,8 +123,23 @@ namespace TechNova.Controllers
 
                 producto.Stock -= item.Cantidad;
 
-                _context.VentaDetalle.Add(item);
+                var detalle = new VentaDetalle
+                {
+                    VentaId = venta.VentaId,
+                    ProductoId = item.ProductoId,
+                    Cantidad = item.Cantidad,
+                    PrecioUnitario = producto.PrecioUnitario,
+                    Subtotal = producto.PrecioUnitario * item.Cantidad
+                };
+
+                totalVenta += detalle.Subtotal;
+
+                _context.VentaDetalle.Add(detalle);
             }
+
+            // Actualizar total de la venta
+            venta.Total = totalVenta;
+            _context.Ventas.Update(venta);
 
             await _context.SaveChangesAsync();
 

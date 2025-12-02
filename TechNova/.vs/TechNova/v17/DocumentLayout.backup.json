@@ -3,104 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\controllers\\ventadetallescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\controllers\\ventadetallescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\models\\ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\models\\ventadetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\ventadetalles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\ventadetalles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\clientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\ventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\ventas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\ventadetalles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\ventadetalles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\ventas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\ventas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\models\\ventacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\models\\ventacreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\ventas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\ventas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\migrations\\20251129024417_actualizarbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\migrations\\20251129024417_actualizarbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\obj\\Debug\\net8.0\\TechNova.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TechNova\\obj\\Debug\\net8.0\\TechNova.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|c:\\users\\restr\\source\\repos\\trabajos_c#\\technova\\technova\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F60EDA50-0ADF-41BC-B721-64A258776903}|TechNova\\TechNova.csproj|solutionrelative:technova\\views\\ventas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,20 +26,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "TechNova\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Models\\Cliente.cs",
-              "RelativeToolTip": "TechNova\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Models\\Venta.cs",
+              "RelativeDocumentMoniker": "TechNova\\Models\\Venta.cs",
+              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Models\\Venta.cs",
+              "RelativeToolTip": "TechNova\\Models\\Venta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-01T18:10:26.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T20:20:36.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Ventas\\Create.cshtml",
+              "RelativeDocumentMoniker": "TechNova\\Views\\Ventas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Ventas\\Create.cshtml",
+              "RelativeToolTip": "TechNova\\Views\\Ventas\\Create.cshtml",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAkwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-01T20:20:12.024Z"
             },
             {
               "$type": "Document",
@@ -133,292 +60,22 @@
               "RelativeDocumentMoniker": "TechNova\\Views\\Ventas\\Index.cshtml",
               "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Ventas\\Index.cshtml",
               "RelativeToolTip": "TechNova\\Views\\Ventas\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADEAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-29T04:23:29.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\VentaDetalles\\Index.cshtml",
-              "RelativeDocumentMoniker": "TechNova\\Views\\VentaDetalles\\Index.cshtml",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\VentaDetalles\\Index.cshtml",
-              "RelativeToolTip": "TechNova\\Views\\VentaDetalles\\Index.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-29T05:21:40.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Models\\Venta.cs",
-              "RelativeDocumentMoniker": "TechNova\\Models\\Venta.cs",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Models\\Venta.cs",
-              "RelativeToolTip": "TechNova\\Models\\Venta.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T18:12:45.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "VentaDetalle.cs",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Models\\VentaDetalle.cs",
-              "RelativeDocumentMoniker": "TechNova\\Models\\VentaDetalle.cs",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Models\\VentaDetalle.cs",
-              "RelativeToolTip": "TechNova\\Models\\VentaDetalle.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T18:08:49.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-01T20:19:31.147Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VentaDetallesController.cs",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Controllers\\VentaDetallesController.cs",
-              "RelativeDocumentMoniker": "TechNova\\Controllers\\VentaDetallesController.cs",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Controllers\\VentaDetallesController.cs*",
-              "RelativeToolTip": "TechNova\\Controllers\\VentaDetallesController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T19:37:03.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Clientes\\Details.cshtml",
-              "RelativeDocumentMoniker": "TechNova\\Views\\Clientes\\Details.cshtml",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Clientes\\Details.cshtml",
-              "RelativeToolTip": "TechNova\\Views\\Clientes\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T23:13:28.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClientesController.cs",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Controllers\\ClientesController.cs",
-              "RelativeDocumentMoniker": "TechNova\\Controllers\\ClientesController.cs",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Controllers\\ClientesController.cs",
-              "RelativeToolTip": "TechNova\\Controllers\\ClientesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T22:33:04.109Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\appsettings.json",
-              "RelativeDocumentMoniker": "TechNova\\appsettings.json",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\appsettings.json",
-              "RelativeToolTip": "TechNova\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-01T17:49:29.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "TechNova\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "TechNova\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T22:32:22.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Clientes\\Index.cshtml",
-              "RelativeDocumentMoniker": "TechNova\\Views\\Clientes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Clientes\\Index.cshtml",
-              "RelativeToolTip": "TechNova\\Views\\Clientes\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T22:32:27.321Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Clientes\\Edit.cshtml",
-              "RelativeDocumentMoniker": "TechNova\\Views\\Clientes\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Clientes\\Edit.cshtml",
-              "RelativeToolTip": "TechNova\\Views\\Clientes\\Edit.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T23:13:30.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "TechNova\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "TechNova\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T22:31:48.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "TechNova\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "TechNova\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T22:31:46.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "VentasController.cs",
               "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Controllers\\VentasController.cs",
               "RelativeDocumentMoniker": "TechNova\\Controllers\\VentasController.cs",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Controllers\\VentasController.cs",
-              "RelativeToolTip": "TechNova\\Controllers\\VentasController.cs",
-              "ViewState": "AgIAAMIAAAAAAAAAAAA1wNQAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Controllers\\VentasController.cs*",
+              "RelativeToolTip": "TechNova\\Controllers\\VentasController.cs*",
+              "ViewState": "AgIAANcAAAAAAAAAAAAgwN4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T03:24:43.957Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Ventas\\Create.cshtml",
-              "RelativeDocumentMoniker": "TechNova\\Views\\Ventas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Ventas\\Create.cshtml",
-              "RelativeToolTip": "TechNova\\Views\\Ventas\\Create.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-29T04:33:11.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Program.cs",
-              "RelativeDocumentMoniker": "TechNova\\Program.cs",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Program.cs",
-              "RelativeToolTip": "TechNova\\Program.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAuwDwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T02:24:07.413Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\VentaDetalles\\Create.cshtml",
-              "RelativeDocumentMoniker": "TechNova\\Views\\VentaDetalles\\Create.cshtml",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\VentaDetalles\\Create.cshtml",
-              "RelativeToolTip": "TechNova\\Views\\VentaDetalles\\Create.cshtml",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T19:47:35.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Ventas\\Delete.cshtml",
-              "RelativeDocumentMoniker": "TechNova\\Views\\Ventas\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Ventas\\Delete.cshtml",
-              "RelativeToolTip": "TechNova\\Views\\Ventas\\Delete.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T19:39:14.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "VentaCreateViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Models\\VentaCreateViewModel.cs",
-              "RelativeDocumentMoniker": "TechNova\\Models\\VentaCreateViewModel.cs",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Models\\VentaCreateViewModel.cs",
-              "RelativeToolTip": "TechNova\\Models\\VentaCreateViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-30T18:48:09.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Ventas\\Details.cshtml",
-              "RelativeDocumentMoniker": "TechNova\\Views\\Ventas\\Details.cshtml",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Ventas\\Details.cshtml",
-              "RelativeToolTip": "TechNova\\Views\\Ventas\\Details.cshtml",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwDUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-30T19:23:30.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "TechNova\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "TechNova\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAgwFkAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-29T02:56:00.921Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ScaffoldingReadMe.txt",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\ScaffoldingReadMe.txt",
-              "RelativeDocumentMoniker": "TechNova\\ScaffoldingReadMe.txt",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\ScaffoldingReadMe.txt",
-              "RelativeToolTip": "TechNova\\ScaffoldingReadMe.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-11-29T02:28:40.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20251129024417_ActualizarBD.cs",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Migrations\\20251129024417_ActualizarBD.cs",
-              "RelativeDocumentMoniker": "TechNova\\Migrations\\20251129024417_ActualizarBD.cs",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\Migrations\\20251129024417_ActualizarBD.cs",
-              "RelativeToolTip": "TechNova\\Migrations\\20251129024417_ActualizarBD.cs",
-              "ViewState": "AgIAAAoBAAAAAAAAAAD4vxQBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T02:44:18.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "TechNova.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\obj\\Debug\\net8.0\\TechNova.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "TechNova\\obj\\Debug\\net8.0\\TechNova.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\restr\\source\\repos\\TRABAJOS_C#\\TechNova\\TechNova\\obj\\Debug\\net8.0\\TechNova.AssemblyInfo.cs",
-              "RelativeToolTip": "TechNova\\obj\\Debug\\net8.0\\TechNova.AssemblyInfo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-29T02:22:30.169Z"
+              "WhenOpened": "2025-12-01T20:19:19.698Z",
+              "EditorCaption": ""
             }
           ]
         }

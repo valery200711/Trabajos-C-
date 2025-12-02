@@ -32,8 +32,6 @@
 
                 <td>@item.Venta?.Cliente?.NombreCompleto</td>
                 <td>@item.Venta?.Fecha.ToString("dd/MM/yyyy")</td>
-                <td>@item.Venta?.Total.ToString("C")</td>
-
                 <td>
                     <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@item.VentaDetalleId">Detalles</a>
                     <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.VentaDetalleId">Eliminar</a>

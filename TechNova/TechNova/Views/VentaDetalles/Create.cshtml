@@ -1,4 +1,4 @@
-ï»¿@model TechNova.Models.VentaDetalle
+@model TechNova.Models.VentaDetalle
 
 @{
     ViewData["Title"] = "Agregar Producto a la Venta";
@@ -8,7 +8,7 @@
 <h1>Agregar Producto a la Venta</h1>
 
 <div class="card p-4 shadow-sm mb-4">
-    <h4>InformaciÃ³n del Detalle</h4>
+    <h4>Información del Detalle</h4>
     <hr />
 
     <form asp-action="Create">
@@ -49,7 +49,7 @@
 
 @section Scripts {
     <script>
-        // Diccionario de Productos y Precios (lo envÃ­as desde el controlador)
+        // Diccionario de Productos y Precios (lo envías desde el controlador)
         var productos = @Html.Raw(Json.Serialize(ViewBag.ProductosData));
 
         // Cuando seleccionas un producto, llena el precio unitario

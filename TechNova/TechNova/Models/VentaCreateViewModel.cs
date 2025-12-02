@@ -6,8 +6,16 @@ namespace TechNova.Models
     {
         public int ClienteId { get; set; }
 
-        public List<VentaDetalle> Items { get; set; } = new();
+        public List<VentaItemViewModel> Items { get; set; } = new();
         public List<Cliente> Clientes { get; set; } = new();
         public List<Producto> Productos { get; set; } = new();
+    }
+
+    public class VentaItemViewModel
+    {
+        public int ProductoId { get; set; }
+        public int Cantidad { get; set; }
+        public decimal PrecioUnitario { get; set; }
+        public decimal Subtotal { get; set; }
     }
 }
